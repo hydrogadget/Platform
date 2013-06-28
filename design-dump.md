@@ -1,14 +1,11 @@
----
 Library
 ---
-is_restricted(day,time)
-is_restricted(day)
-bad_weather(day)
-bad_weather(day,time)
-bad_weather() // implies now()
+* is_restricted(day,time)
+* is_restricted(day)
+* bad_weather(day)
+* bad_weather(day,time)
+* bad_weather() // implies now()
 
-
----
 API
 ---
 
@@ -27,13 +24,13 @@ Valves
 
 Configs
 -------
-Access Point
-Soak and Cycle
-Water Restriction Rules
-Alert Settings
+* Access Point
+* Soak and Cycle
+* Water Restriction Rules
+* Alert Settings
     * SMTP
     * SMS
 
-network.username
-network.password
-network.ssid
+* network.username
+* network.password
+* network.ssid
